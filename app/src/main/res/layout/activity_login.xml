@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAFDC2"
+    android:background="@color/colorPrimary"
     tools:context=".LoginActivity">
 
 
@@ -41,6 +41,7 @@
         android:layout_height="66dp"
         android:layout_marginBottom="87dp"
         android:text="Log in"
+        android:background="@drawable/bt_graid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -54,6 +55,7 @@
         android:layout_height="66dp"
         android:layout_marginBottom="87dp"
         android:text="Sign up"
+        android:background="@drawable/bt_graid"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

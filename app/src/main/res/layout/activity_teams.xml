@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAFDC2"
+    android:background="@color/colorPrimary"
     tools:context=".TeamsActivity">
 
     <ListView
@@ -26,6 +26,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/bt_graid"
             android:id="@+id/Races"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -40,6 +41,7 @@
             app:srcCompat="@drawable/f1" />
 
         <ImageView
+            android:background="@drawable/imageclicked"
             android:id="@+id/profile1"
             android:layout_width="70dp"
             android:layout_height="match_parent"

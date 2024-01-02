@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAFDC2"
+    android:background="@color/colorPrimary"
     tools:context=".DriversActivity">
 
     <TextView
@@ -48,7 +48,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#FF0000"
+            android:background="@color/red"
             android:orientation="vertical">
 
             <ImageView
@@ -79,7 +79,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#EF0000"
+            android:background="@color/red"
             android:orientation="vertical">
 
             <ImageView

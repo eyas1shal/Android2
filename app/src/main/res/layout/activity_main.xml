@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AAFDC2"
+    android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
     <ListView
@@ -36,7 +36,9 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="teams" />
+            android:text="teams"
+            android:background="@drawable/bt_graid"
+            />
 
         <ImageView
             android:id="@+id/f1logo"
@@ -47,6 +49,7 @@
             app:srcCompat="@drawable/f1" />
 
         <ImageView
+            android:background="@drawable/imageclicked"
             android:id="@+id/profile"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
